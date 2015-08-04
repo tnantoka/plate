@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require 'plate'
+
+Plate::CLI.start
+

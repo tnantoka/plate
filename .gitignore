@@ -1,0 +1,25 @@
+/.bundle/
+/.yardoc
+/Gemfile.lock
+/_yardoc/
+/coverage/
+/doc/
+/pkg/
+/spec/reports/
+/tmp/*
+!/tmp/.keep
+
+.DS_Store
+*~
+.*.sw*
+/plate
+parser.output
+/design
+
+# GitHub Pages
+/assets
+/index.html
+/logo.png
+/vendor
+/examples
+

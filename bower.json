@@ -1,0 +1,10 @@
+{
+  "name": "plate",
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "vue": "~0.12.8",
+    "google-code-prettify": "~1.0.4",
+    "font-awesome": "~4.4.0",
+    "bootswatch": "~3.3.5"
+  }
+}

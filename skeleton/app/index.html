@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title><%= title %></title>
+    <link href="vendor/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="vendor/google-code-prettify/bin/prettify.min.css" rel="stylesheet">
+    <%= head %>
+
+    <link href="assets/css/app.css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="app"><%= body %></div>
+
+    <script src="vendor/jquery/dist/jquery.min.js"></script>
+    <script src="vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="vendor/vue/dist/vue.min.js"></script>
+    <script src="vendor/google-code-prettify/bin/prettify.min.js"></script>
+
+    <script>var data = <%= data %>;</script>
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
