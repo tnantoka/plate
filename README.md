@@ -4,7 +4,7 @@
 [![Code Climate](https://codeclimate.com/github/tnantoka/plate/badges/gpa.svg)](https://codeclimate.com/github/tnantoka/plate)
 [![Test Coverage](https://codeclimate.com/github/tnantoka/plate/badges/coverage.svg)](https://codeclimate.com/github/tnantoka/plate/coverage)
 
-A little language to create one page web sites.
+A little language to create one page websites.
 
 ## Installation
 
