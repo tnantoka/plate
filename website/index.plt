@@ -9,32 +9,32 @@ examples:
   - title: Hello
     image: examples/hello.png
     link: examples/hello/index.html
-    src: https://tnantoka/plate/tree/test/fixtures/src/hello.plt
+    src: https://github.com/tnantoka/plate/tree/master/test/fixtures/src/hello.plt
     desc: Basic template, Script
   - title: Image
     image: examples/image.png
     link: examples/image/index.html
-    src: https://tnantoka/plate/tree/test/fixtures/src/image/index.plt
+    src: https://github.com/tnantoka/plate/tree/master/test/fixtures/src/image/index.plt
     desc: Image, Spin
   - title: List
     image: examples/list.png
     link: examples/list/index.html
-    src: https://tnantoka/plate/tree/test/fixtures/src/list.plt
+    src: https://github.com/tnantoka/plate/tree/master/test/fixtures/src/list.plt
     desc: Repeat, Theme
   - title: Highlight
     image: examples/highlight.png
     link: examples/highlight/index.html
-    src: https://tnantoka/plate/tree/test/fixtures/src/highlight.plt
+    src: https://github.com/tnantoka/plate/tree/master/test/fixtures/src/highlight.plt
     desc: Syntax highlight
   - title: Font
     image: examples/font.png
     link: examples/font/index.html
-    src: https://tnantoka/plate/tree/test/fixtures/src/font.plt
+    src: https://github.com/tnantoka/plate/tree/master/test/fixtures/src/font.plt
     desc: Font Awesome, Google Fonts
   - title: Example
     image: examples/example.png
     link: examples/example/index.html
-    src: https://tnantoka/plate/tree/test/fixtures/src/example.plt
+    src: https://github.com/tnantoka/plate/tree/master/test/fixtures/src/example.plt
     desc: The example above
 
 bootstrap:
@@ -66,7 +66,7 @@ div
     .container
       .row
         .6
-          ### [example.plt](https://tnantoka/plate/tree/test/fixtures/src/example.plt) {inherit}
+          ### [example.plt](https://github.com/tnantoka/plate/tree/master/test/fixtures/src/example.plt) {inherit}
           .text-left
             ```
             ---
@@ -81,7 +81,7 @@ div
                   Click me
             ```
         .6
-          ### [index.html](https://tnantoka/plate/tree/gh-pages/examples/example/index.html) {inherit}
+          ### [index.html](https://github.com/tnantoka/plate/tree/gh-pages/examples/example/index.html) {inherit}
           .text-left
             ```
             <div class="container"
@@ -125,7 +125,7 @@ div
         .text-right
           p
             Generate by [Plate](https://github.com/tnantoka/plate) {blank, inherit}. 
-            \([Source](https://github.com/tnantoka/plate/tree/website/index.plt) {blank, inherit}\)
+            \([Source](https://github.com/tnantoka/plate/tree/master/website/index.plt) {blank, inherit}\)
       .text-left
         p
           \(c\) 2015 [\@tnantoka](https://twitter.com/tnantoka) {blank, inherit}
