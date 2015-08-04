@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Plate</title>
+    <link href="vendor/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="vendor/google-code-prettify/bin/prettify.min.css" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Yantramanav%3A100" rel="stylesheet">
+
+    <link href="assets/css/app.css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="app"><div style="background: #333;height: 20px;top: 0;left: 0;right: 0;z-index: 1"></div><div class="text-center" style="padding-top: 50px"><div class="jumbotron" style="background: transparent"><div class="container"><img src="logo.png" style="animation: spin 180s linear infinite" /><h1 style="font-family: 'Yantramanav', sans-serif;font-size: 80px">Plate</h1><p>A little language to create one page websites.</p></div></div><div class="jumbotron" style="background: #eee"><div class="container"><div class="row"><div class="col-sm-6"><h3><a href="https://tnantoka/plate/tree/test/fixtures/src/example.plt" style="color: inherit">example.plt</a></h3><div class="text-left"><pre class="prettyprint">---
+message: hello
+---
+.container
+  @background: #f9f9f9
+  # Hello, world
+  p
+    .btn
+      $click: alert(message) 
+      Click me</pre></div></div><div class="col-sm-6"><h3><a href="https://tnantoka/plate/tree/gh-pages/examples/example/index.html" style="color: inherit">index.html</a></h3><div class="text-left"><pre class="prettyprint">&lt;div class=&quot;container&quot;
+     style=&quot;background: #f9f9f9&quot;&gt;
+  &lt;h1&gt;Hello, world&lt;/h1&gt;
+  &lt;p&gt;
+    &lt;button class=&quot;btn btn-default&quot;
+            v-on=&quot;click: alert(message)&quot;&gt;
+      Click me
+    &lt;/button&gt;
+  &lt;/p&gt;
+&lt;/div&gt;</pre></div></div></div></div></div><div class="container"><h2>Examples</h2><div class="row"><div class="col-sm-4" v-repeat="examples"><div class="thumbnail hover"><a href="{{link}}"><img src="{{image}}" /></a><div class="caption"><h3><a href="{{link}}" style="color: inherit">{{title}}</a></h3><p>{{desc}}</p><p><a href="{{src}}" target="_blank" class="btn btn-default btn-sm">Source</a></p></div></div></div></div></div><div style="background: #eee;padding-top: 60px;padding-bottom: 60px;margin-top: 30px"><a href="https://github.com/tnantoka/plate" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-github"></i> Fork me on GitHub</a></div><div class="clearfix" style="background: #333;color: #fff;margin-bottom: 0;padding-top: 20px;padding-bottom: 30px"><div class="container"><div class="pull-right"><div class="text-right"><p>Generate by <a href="https://github.com/tnantoka/plate" target="_blank" style="color: inherit">Plate</a>. (<a href="https://github.com/tnantoka/plate/tree/website/index.plt" target="_blank" style="color: inherit">Source</a>)</p></div></div><div class="text-left"><p>(c) 2015 <a href="https://twitter.com/tnantoka" target="_blank" style="color: inherit">@tnantoka</a></p></div></div></div></div></div>
+
+    <script src="vendor/jquery/dist/jquery.min.js"></script>
+    <script src="vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="vendor/vue/dist/vue.min.js"></script>
+    <script src="vendor/google-code-prettify/bin/prettify.min.js"></script>
+
+    <script>var data = {"title":"Plate","background":"#eee","fonts":["Yantramanav:100"],"examples":[{"title":"Hello","image":"examples/hello.png","link":"examples/hello/index.html","src":"https://tnantoka/plate/tree/test/fixtures/src/hello.plt","desc":"Basic template, Script"},{"title":"Image","image":"examples/image.png","link":"examples/image/index.html","src":"https://tnantoka/plate/tree/test/fixtures/src/image/index.plt","desc":"Image, Spin"},{"title":"List","image":"examples/list.png","link":"examples/list/index.html","src":"https://tnantoka/plate/tree/test/fixtures/src/list.plt","desc":"Repeat, Theme"},{"title":"Highlight","image":"examples/highlight.png","link":"examples/highlight/index.html","src":"https://tnantoka/plate/tree/test/fixtures/src/highlight.plt","desc":"Syntax highlight"},{"title":"Font","image":"examples/font.png","link":"examples/font/index.html","src":"https://tnantoka/plate/tree/test/fixtures/src/font.plt","desc":"Font Awesome, Google Fonts"},{"title":"Example","image":"examples/example.png","link":"examples/example/index.html","src":"https://tnantoka/plate/tree/test/fixtures/src/example.plt","desc":"The example above"}],"bootstrap":{"radius":0}};</script>
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>

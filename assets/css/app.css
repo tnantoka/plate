@@ -1,0 +1,21 @@
+.hover:hover {
+  background: #f5f5f5;
+}
+
+pre.prettyprint {
+  background: #fff;
+  border-color: #ccc;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(359deg); }
+}
+
+
+  .btn,
+  .thumbnail,
+  pre {
+    border-radius: 0;
+  }
+

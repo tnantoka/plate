@@ -18,9 +18,9 @@ parser.output
 /design
 
 # GitHub Pages
-/assets
-/index.html
-/logo.png
-/vendor
-/examples
+#/assets
+#/index.html
+#/logo.png
+#/vendor
+#/examples
 
