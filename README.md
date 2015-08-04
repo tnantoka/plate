@@ -1,5 +1,9 @@
 # Plate
 
+[![Circle CI](https://circleci.com/gh/tnantoka/plate.svg?style=svg)](https://circleci.com/gh/tnantoka/plate)
+[![Code Climate](https://codeclimate.com/github/tnantoka/plate/badges/gpa.svg)](https://codeclimate.com/github/tnantoka/plate)
+[![Test Coverage](https://codeclimate.com/github/tnantoka/plate/badges/coverage.svg)](https://codeclimate.com/github/tnantoka/plate/coverage)
+
 A little language to create one page web sites.
 
 ## Installation
