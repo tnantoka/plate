@@ -7,7 +7,7 @@ module Plate
         <h1 style="font-weight: normal">Main</h1>
         <h2>{{sub}}</h2>
         <p>(Powered by <a href="https://github.com/tnantoka/plate" target="_blank" class="btn btn-default">link</a> gem.)</p>
-        <div><img src="image.gif" style="animation: spin 1.5s linear infinite" /></div>
+        <div><img src="image.gif" style="-webkit-animation: spin 1.5s linear infinite; animation: spin 1.5s linear infinite" /></div>
         <p style="color: #333"><a href="url">link <i class="fa fa-external-link"></i></a></p>
         <div class="container">
           <div class="text-center" style="background: #eee">

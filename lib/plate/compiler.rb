@@ -90,7 +90,8 @@ module Plate
       when /spin(\-\d+\.*\d*)?/
         s = value.gsub(/spin\-?/, '')
         s = 1.5 if s.empty?
-        "style=\"animation: spin #{s}s linear infinite\""
+        animation = "animation: spin #{s}s linear infinite"
+        "style=\"-webkit-#{animation}; #{animation}\""
       when 'inherit'
         'style="color: inherit"'
       else
