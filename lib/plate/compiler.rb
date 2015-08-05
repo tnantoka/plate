@@ -7,6 +7,7 @@ module Plate
     def initialize
       @parser = Parser.new
       self.repeating = false
+      self.meta = {}
     end
 
     def compile(code)
@@ -16,7 +17,7 @@ module Plate
     end
 
     def fonts
-      return '' if meta.nil? || meta['fonts'].nil?
+      return '' if meta['fonts'].nil?
       meta['fonts'].map { |font|
         "<link href=\"http://fonts.googleapis.com/css?family=#{CGI.escape(font)}\" rel=\"stylesheet\">"
       }.join("")
@@ -127,7 +128,7 @@ module Plate
   class FrontMatterNode
     def compile(compiler, parent = nil)
       meta = YAML.load(yaml)
-      compiler.meta = meta
+      compiler.meta = meta || {}
       ''
     end
   end

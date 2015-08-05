@@ -8,6 +8,7 @@
 /spec/reports/
 /tmp/*
 !/tmp/.keep
+/*.gem
 
 .DS_Store
 *~

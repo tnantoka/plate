@@ -59,7 +59,7 @@ module Plate
       def build_html(output, compiler)
         body = compiler.body
         meta = compiler.meta
-        title = meta.nil? ? '' : meta['title']
+        title = meta['title']
         data = JSON.dump(compiler.meta)
         head = compiler.fonts
 
@@ -74,7 +74,7 @@ module Plate
 
       def build_css(output, compiler, vendor)
         meta = compiler.meta
-        bootstrap = (meta && meta['bootstrap']) || {}
+        bootstrap = meta['bootstrap'] || {}
 
         path = File.join(output, 'assets', 'css', 'app.css')
         build(path, binding)
