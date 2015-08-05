@@ -35,7 +35,7 @@ $ bundle exec rake
 $ bundle exec rake TEST=test/lexer_test.rb 
 ```
 
-### Github Pages
+### GitHub Pages
 
 #### Examples
 
