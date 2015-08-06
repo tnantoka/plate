@@ -82,11 +82,16 @@ module Plate
       when 'blank'
         'target="_blank"'
       when /\Abtn/
-        c = 'class="btn btn-default'
+        c = 'btn'
+
+        c << ' btn-primary' if value =~ /\-primary/
+        c << ' btn-default' if c == 'btn'
+
         c << ' btn-lg' if value =~ /\-lg/
         c << ' btn-sm' if value =~ /\-sm/
         c << ' btn-block' if value =~ /\-block/
-        c + '"'
+
+        "class=\"#{c}\""
       when /spin(\-\d+\.*\d*)?/
         s = value.gsub(/spin\-?/, '')
         s = 1.5 if s.empty?
@@ -183,8 +188,10 @@ module Plate
           k + ' btn-default'
         when 'center'
           "text-#{k}"
-        when /\A\d\z/
+        when /\A\d+\z/
           "col-sm-#{k}"
+        when /\Aoffset\-(\d+)\z/
+          "col-sm-offset-#{$1}"
         else
           k
         end

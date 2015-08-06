@@ -113,7 +113,12 @@ div
     @padding-top: 60px
     @padding-bottom: 60px
     @margin-top: 30px
-    [i-github Fork me on GitHub](https://github.com/tnantoka/plate) {blank, btn-lg}
+    .container
+      .row
+        .5.offset-1
+          [i-pencil-square-o Try it now](http://try-plate.herokuapp.com/) {blank, btn-lg-block}
+        .5
+          [i-github Fork me on GitHub](https://github.com/tnantoka/plate) {blank, btn-lg-block}
   .clearfix
     @background: #333
     @color: #fff
